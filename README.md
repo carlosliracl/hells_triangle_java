@@ -35,6 +35,8 @@ example = [[6],[3,5],[9,7,1],[4,6,8,4]]
 > $ cd hells_triangle_java
 > # To run the tests
 > $ mvn test 
+> # if you want to see a comparison between the two different implementations that I`ve made
+> $ mvn exec:java -Dexec.mainClass="hells_triangle.App"
 ```
 
 ## Solution
