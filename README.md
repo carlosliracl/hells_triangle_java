@@ -1,3 +1,4 @@
+
 # Hells Triangle Challange - Java Solution
 An implementation to solve hells triangle problem with java
 
@@ -38,3 +39,5 @@ The first attempt was transform the triangles array in a binary tree, to be able
 The second aproach was just iterate over the triangle recursivelly without creating aditional objects. In this case the result was archieved on 50% of the time the first aproach.
 
 I choosed Java because it's one of the languages ​​I feel most comfortable using
+
+[Click here to see Ruby implementation](https://github.com/carlosliracl/hells_triangle_ruby)
