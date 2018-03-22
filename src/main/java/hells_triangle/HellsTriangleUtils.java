@@ -3,8 +3,7 @@ package hells_triangle;
 import java.util.Random;
 
 public class HellsTriangleUtils {
-	
-	
+
 	public static void print(int[][] triangle) {
 		// get base length
 		int spaces = triangle[triangle.length - 1].length;
@@ -35,6 +34,9 @@ public class HellsTriangleUtils {
 	 */
 	public static void validate(int[][] triangle) throws IllegalTriangleException {
 		int expectedLength = 1;
+		if (triangle.length == 0) {
+			throw new IllegalTriangleException("Empty triangle");
+		}
 		for (int i = 0; i < triangle.length; i++) {
 			if (triangle[i].length != expectedLength) {
 				throw new IllegalTriangleException(i, expectedLength, triangle[i].length);

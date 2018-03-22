@@ -2,6 +2,7 @@ package hells_triangle;
 
 import java.util.Objects;
 
+@Deprecated
 public class Node {
 	
 
